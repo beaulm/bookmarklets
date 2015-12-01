@@ -1,0 +1,1 @@
+javascript:(function(){console.log('Monetate QA mode activated');window.monetateQ.push=function(){"trackEvent"===arguments[0][0]&&arguments[0][1]instanceof Array&&1===arguments[0][1].length?console.log(arguments[0][1][0]):console.log(arguments)};})();
